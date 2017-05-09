@@ -1,6 +1,7 @@
 Implementation project using C# and C++.
 
-Myset is my own personal implementation of a set in C++ handling dynamic memory allocation where memory is stored as an array that is expanded as more entries are added to the set. All memory is accounted for.
+Myset is my own personal implementation of a set in C++ handling dynamic memory allocation where memory is stored as an array that is expanded as more entries are added to the set. All memory is accounted for and error tested using valgrind.
+Compiled as:   c++ -std=c++11 myset.cpp
 
 MySerializer serializes objects that include data types of strings, bools, floats, and ints. 
 
